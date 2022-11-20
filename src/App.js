@@ -1,5 +1,6 @@
 import './App.css';
 import Nabbar from './componentes/NabBar/Nabbar';
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
 
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
       <header className="App-header">
         <Nabbar/>
       </header>
+      <ItemListContainer/>
+
+
     </div>
   );
 }
