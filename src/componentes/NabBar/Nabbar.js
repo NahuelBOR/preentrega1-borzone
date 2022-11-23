@@ -1,18 +1,19 @@
 import CardWidget from "../CartWidget/CardWidget"
+import { Link } from "react-router-dom"
 
 const Nabbar = () => {
   return (
     <nav className="nab">
-        <a href="/" className="site-title">Pop.mdp</a>
+        <Link to={'/'} className="site-title">Pop.mdp</Link>
         <ul>
             <li className="active">
-            <a href="/carrito" className="carrito"><CardWidget /></a>
+            <Link to={'/asd'} className="carrito"><CardWidget /></Link>
             </li>
             <li className="active">
-                <a href="/productos" className="">Productos</a>
+                <Link to={'/Productos'}  className="">Productos</Link>
             </li>
             <li className="active">
-                <a href="/about" className="">About</a>
+                <Link to={'/About'}  className="">About</Link>
             </li>
         </ul>
     </nav>

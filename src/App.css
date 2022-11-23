@@ -84,4 +84,9 @@ body {
   max-width: 400px;
 }
 
+.not__found{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 
